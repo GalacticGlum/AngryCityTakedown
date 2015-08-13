@@ -1,15 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyBase : MonoBehaviour {
+[System.Serializable]
+public class EnemyBase
+{
+    public int health;
+    public int damage;
+    public EnemyType enemyType;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public enum EnemyType
+    {
+       NORMAL,
+       HARD,
+       BOSS
+    }
+
+    public EnemyBase(EnemyBase enemy)
+    {
+        health = enemy.health;
+        damage = enemy.damage;
+        enemyType = enemy.enemyType;
+    }
 }
