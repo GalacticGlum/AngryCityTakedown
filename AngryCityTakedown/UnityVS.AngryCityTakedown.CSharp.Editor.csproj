@@ -119,31 +119,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityVS.AngryCityTakedown.CSharp.csproj">
-      <Project>{8BE5E7DC-B140-AC83-A162-5B77F112FE8F}</Project>
-      <Name>UnityVS.AngryCityTakedown.CSharp</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\RagePixel\Editor\RagePixelAnimStripGUI.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelCameraEditor.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelColorPickerGUI.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelGUIIcons.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelHSBColor.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelPaletteGUI.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteEditor.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteSheetEditorWindow.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelSpriteSheetGUI.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelTexel.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelTexelRect.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelTransformInspector.cs" />
-    <Compile Include="Assets\RagePixel\Editor\RagePixelUtil.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\UPABlendModes.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\UPACustomTypes.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\UPADrawer.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\UPAImage.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\UPALayer.cs" />
+    <Compile Include="Assets\UPAToolkit\Editor\UPASession.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\Changelog.txt" />
-    <None Include="Assets\RagePixel\Code\RagePixelBasic.shader" />
-    <None Include="Assets\RagePixel\Code\RagePixelBasicFlash.shader" />
-    <None Include="Assets\RagePixel\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
