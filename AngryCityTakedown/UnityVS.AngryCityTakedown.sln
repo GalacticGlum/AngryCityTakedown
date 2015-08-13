@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.AngryCityTakedown.CSharp.Plugins", "UnityVS.AngryCityTakedown.CSharp.Plugins.csproj", "{79B20356-231B-68E8-7F71-AAD7E731B282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.AngryCityTakedown.CSharp", "UnityVS.AngryCityTakedown.CSharp.csproj", "{8BE5E7DC-B140-AC83-A162-5B77F112FE8F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.AngryCityTakedown.CSharp.Editor", "UnityVS.AngryCityTakedown.CSharp.Editor.csproj", "{EDCB510C-9A46-4BA5-8E60-1E5EC6846648}"
 EndProject
 Global
@@ -9,6 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B20356-231B-68E8-7F71-AAD7E731B282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B20356-231B-68E8-7F71-AAD7E731B282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B20356-231B-68E8-7F71-AAD7E731B282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B20356-231B-68E8-7F71-AAD7E731B282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE5E7DC-B140-AC83-A162-5B77F112FE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE5E7DC-B140-AC83-A162-5B77F112FE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE5E7DC-B140-AC83-A162-5B77F112FE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE5E7DC-B140-AC83-A162-5B77F112FE8F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EDCB510C-9A46-4BA5-8E60-1E5EC6846648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EDCB510C-9A46-4BA5-8E60-1E5EC6846648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCB510C-9A46-4BA5-8E60-1E5EC6846648}.Release|Any CPU.ActiveCfg = Release|Any CPU
