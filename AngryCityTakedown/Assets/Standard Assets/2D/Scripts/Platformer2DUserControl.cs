@@ -25,16 +25,6 @@ namespace UnityStandardAssets._2D
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
-
-            if(Input.GetKey(KeyCode.DownArrow))
-            {
-                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 0.1f, 0);
-            }
-
-            if(Input.GetKey(KeyCode.UpArrow) && goingUp == true)
-            {
-                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.1f, 0);
-            }
         }
 
 

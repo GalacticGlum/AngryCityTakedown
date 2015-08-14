@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
+    public float playerSpeed;
     public int playerHealth;
     public int playerDamage;
     public bool isDead;
